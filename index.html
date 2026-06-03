@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- NAV BAR (With updated links matching your core sections) -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#" class="logo">Ubaid.</a>
+        
+        <!-- Mobile Menu Trigger Button -->
+        <button class="mobile-menu-btn" aria-label="Toggle Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <!-- Dropdown Links Navigation -->
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <button class="dark-mode-toggle" id="theme-toggle" aria-label="Toggle Dark Mode">
+                    <span class="mode-icon">🌙</span>
+                </button>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Placeholder Sections for Scroll Effect -->
+<section id="home">
+    <!-- HERO TITLE REPLACEMENT (Place this in your home section) -->
+    <div class="hero-content">
+        <div class="hero-image-container">
+            <img src="ubaid.jpeg" alt="Ubaid Ullah" class="hero-profile-img">
+        </div>
+        <span class="subtitle-badge">Future Software Engineer</span>
+        <h1 class="hero-title">Ubaid Ullah</h1>
+        <!-- Updated Title Badges Footer -->
+        <p class="hero-tagline">
+            <span class="typing-text"></span><span class="cursor">|</span>
+        </p>
+    </div>
+</section>
+<section id="about">
+    <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="title-underline"></div>
+    </div>
+    <p style="max-width: 800px; margin: 0 auto 2rem auto; text-align: center; font-size: 1.1rem; line-height: 1.8; color: var(--text-secondary);">
+        Software Engineering student at AUST, passionate about full-stack development, blockchain, and emerging technologies. 
+        Experienced with JavaScript, React, Next.js, Node.js, Express.js, MongoDB, FastAPI, Flutter, and the MERN Stack. 
+        Currently exploring DevGuard-AI, blockchain systems, and modern software architecture while building projects and expanding my technical expertise through continuous learning and collaboration.
+    </p>
+</section>
+
+<!-- NEW COMPREHENSIVE SKILLS SECTION -->
+<section id="skills" class="skills-section">
+    <div class="section-header">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="title-underline"></div>
+    </div>
+
+    <div class="skills-grid">
+        <!-- Category 1: Languages -->
+        <div class="skills-card">
+            <div class="card-icon">💻</div>
+            <h3>Programming Languages</h3>
+            <ul class="skills-list">
+                <li>JavaScript <span class="dot fluent"></span></li>
+                <li>Python <span class="subtext">(Fundamentals & Core)</span> <span class="dot core"></span></li>
+                <li>Java <span class="dot learning"></span></li>
+                <li>C++ <span class="dot learning"></span></li>
+                <li>PHP <span class="dot core"></span></li>
+                <li>TypeScript <span class="dot learning"></span></li>
+                <li>Dart <span class="dot learning"></span></li>
+            </ul>
+        </div>
+
+        <!-- Category 2: Frontend -->
+        <div class="skills-card">
+            <div class="card-icon">🎨</div>
+            <h3>Frontend Development</h3>
+            <ul class="skills-list">
+                <li>HTML5 & CSS3 <span class="dot fluent"></span></li>
+                <li>JavaScript <span class="subtext">(ES6+)</span> <span class="dot fluent"></span></li>
+                <li>React.js & Next.js <span class="dot core"></span></li>
+                <li>Bootstrap <span class="dot fluent"></span></li>
+                <li>Responsive Web Design <span class="dot fluent"></span></li>
+            </ul>
+        </div>
+
+        <!-- Category 3: Backend & DB -->
+        <div class="skills-card">
+            <div class="card-icon">⚙️</div>
+            <h3>Backend & Databases</h3>
+            <ul class="skills-list">
+                <li>Node.js & Express.js <span class="dot core"></span></li>
+                <li>FastAPI <span class="dot learning"></span></li>
+                <li>RESTful APIs <span class="dot core"></span></li>
+                <li>Auth & Authorization <span class="dot core"></span></li>
+                <li>MongoDB & MySQL <span class="dot core"></span></li>
+            </ul>
+        </div>
+
+        <!-- Category 4: Specialized Dev -->
+        <div class="skills-card">
+            <div class="card-icon">📱</div>
+            <h3>Full Stack & Mobile</h3>
+            <ul class="skills-list">
+                <li>MERN Stack Development <span class="dot core"></span></li>
+                <li>Flutter Framework <span class="dot learning"></span></li>
+                <li>Dart Ecosystem <span class="dot learning"></span></li>
+            </ul>
+        </div>
+
+        <!-- Category 5: Engineering & Architecture -->
+        <div class="skills-card">
+            <div class="card-icon">🛠️</div>
+            <h3>Software Engineering</h3>
+            <ul class="skills-list">
+                <li>Object-Oriented Programming <span class="dot core"></span></li>
+                <li>Data Structures & Algos <span class="dot practice"></span></li>
+                <li>SDLC Methodologies <span class="dot core"></span></li>
+                <li>Software Architecture <span class="dot core"></span></li>
+                <li>System Design Fundamentals <span class="dot learning"></span></li>
+            </ul>
+        </div>
+
+        <!-- Category 6: Tools & Platforms -->
+        <div class="skills-card">
+            <div class="card-icon">🔧</div>
+            <h3>Tools & Platforms</h3>
+            <ul class="skills-list">
+                <li>Git & GitHub <span class="dot fluent"></span></li>
+                <li>VS Code & npm <span class="dot fluent"></span></li>
+                <li>Postman API Client <span class="dot core"></span></li>
+            </ul>
+        </div>
+
+        <!-- Category 7: Blockchain -->
+        <div class="skills-card highlight-card">
+            <div class="card-icon">🔗</div>
+            <h3>Blockchain & Emerging Tech</h3>
+            <ul class="skills-list">
+                <li>Blockchain Fundamentals <span class="dot learning"></span></li>
+                <li>Decentralized Systems <span class="dot learning"></span></li>
+                <li>Smart Contract Concepts <span class="dot learning"></span></li>
+                <li>Web3 Ecosystem Exploration <span class="dot learning"></span></li>
+            </ul>
+        </div>
+
+        <!-- Category 8: Exploring -->
+        <div class="skills-card future-card">
+            <div class="card-icon">🚀</div>
+            <h3>Currently Exploring</h3>
+            <ul class="skills-list exploring-tags">
+                <li>Artificial Intelligence</li>
+                <li>Blockchain Dev</li>
+                <li>Cybersecurity</li>
+                <li>Advanced React & Next.js</li>
+                <li>Open Source Collaboration</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="program"></section>
+
+<!-- GALLERY SECTION -->
+<section id="gallery" class="gallery-section">
+    <div class="section-header">
+        <h2 class="section-title">My Gallery</h2>
+        <div class="title-underline"></div>
+    </div>
+
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Workspace">
+            <div class="gallery-overlay"><span>Professional Workspace</span></div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80" alt="Coding">
+            <div class="gallery-overlay"><span>Code Development</span></div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=600&q=80" alt="Technology">
+            <div class="gallery-overlay"><span>Emerging Tech</span></div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=600&q=80" alt="Innovation">
+            <div class="gallery-overlay"><span>Innovation Lab</span></div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Collaboration">
+            <div class="gallery-overlay"><span>Community Work</span></div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=600&q=80" alt="Blockchain">
+            <div class="gallery-overlay"><span>Blockchain Explorer</span></div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact-section">
+    <div class="section-header">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="title-underline"></div>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-form-wrapper">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="gmail">Gmail</label>
+                    <input type="email" id="gmail" placeholder="yourname@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" rows="5" placeholder="Project details or message..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+
+        <div class="social-links-wrapper">
+            <h3>Connect with me</h3>
+            <p>Feel free to reach out on any of these platforms:</p>
+            <div class="social-grid">
+                <a href="https://github.com/ubaidhabib0" target="_blank" class="social-item">
+                    <i class="fab fa-github"></i> <span>Github</span>
+                </a>
+                <a href="https://instagram.com/ubaidhabiib0" target="_blank" class="social-item">
+                    <i class="fab fa-instagram"></i> <span>Instagram</span>
+                </a>
+                <a href="https://x.com/ubaidhabiib0" target="_blank" class="social-item">
+                    <i class="fab fa-x-twitter"></i> <span>X (Twitter)</span>
+                </a>
+                <a href="https://threads.net/@ubaidhabiib0" target="_blank" class="social-item">
+                    <i class="fa-brands fa-threads"></i> <span>Threads</span>
+                </a>
+                <a href="https://facebook.com/ubaidhabiib0" target="_blank" class="social-item">
+                    <i class="fab fa-facebook"></i> <span>Facebook</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<button id="scrollToTopBtn" title="Go to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
