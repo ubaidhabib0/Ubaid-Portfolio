@@ -2,7 +2,7 @@
    SCROLL REVEAL + NAV ACTIVE
 ========================= */
 
-const sections = document.querySelectorAll(".section");
+const sections = document.querySelectorAll("section");
 const links = document.querySelectorAll(".nav-links a");
 
 /* scroll animation */
@@ -48,4 +48,16 @@ toggleBtn.addEventListener("click", () => {
     } else {
         icon.textContent = "🌙";
     }
+});
+
+/* =========================
+   MOBILE MENU
+========================= */
+
+const menuBtn = document.getElementById("menuBtn");
+const navLinks = document.querySelector(".nav-links");
+
+menuBtn.addEventListener("click", () => {
+    menuBtn.classList.toggle("active");
+    navLinks.classList.toggle("show");
 });
