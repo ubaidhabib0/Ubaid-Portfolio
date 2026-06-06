@@ -15,7 +15,10 @@
     <!-- ================= NAVBAR ================= -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#home" class="logo">Ubaid.</a>
+            <a href="#home" class="logo">
+                <span class="logo-icon">✦</span>
+                <span>Ubaid</span>
+            </a>
 
             <button class="mobile-menu-btn" id="menuBtn">
                 <span></span>
@@ -23,34 +26,28 @@
                 <span></span>
             </button>
 
-
             <ul class="nav-links">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#gallery">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-                
-
-                <li class="theme-item">
-                    <button id="theme-toggle" class="theme-toggle">
-                        <span class="icon">🌙</span>
-                    </button>
-                </li>
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#gallery" class="nav-link">Work</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
+
+            <button id="theme-toggle" class="theme-toggle" title="Toggle Dark Mode">
+                <span class="icon">🌙</span>
+            </button>
         </div>
     </nav>
 
-    <!-- ================= HERO (UPGRADED STARTUP VERSION) ================= -->
+    <!-- ================= HERO ================= -->
     <section id="home" class="hero-section">
-
         <div class="hero-container">
-
             <!-- LEFT SIDE -->
             <div class="hero-left">
-
                 <div class="hero-badge">
-                    👋 Available for Freelance Work
+                    <span class="badge-dot"></span>
+                    Available for Freelance Work
                 </div>
 
                 <h1 class="hero-title">
@@ -62,57 +59,56 @@
                 </p>
 
                 <p class="hero-description">
-                    I build modern, scalable, and high-performance web applications using
-                    JavaScript, React, Node.js, and emerging blockchain technologies.
+                    I craft elegant, scalable web applications with modern technologies. Specialized in
+                    JavaScript, React, Node.js, and exploring blockchain frontiers.
                 </p>
 
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn-primary">Hire Me</a>
-                    <a href="#skills" class="btn-secondary">View Skills</a>
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Hire Me</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#skills" class="btn btn-secondary">
+                        <span>View Skills</span>
+                    </a>
                 </div>
 
                 <div class="hero-stats">
-                    <div>
+                    <div class="stat-item">
                         <h3>10+</h3>
                         <p>Projects</p>
                     </div>
-                    <div>
+                    <div class="stat-item">
                         <h3>Full</h3>
                         <p>Stack Dev</p>
                     </div>
-                    <div>
+                    <div class="stat-item">
                         <h3>1+</h3>
-                        <p>Years Learning</p>
+                        <p>Yrs Learning</p>
                     </div>
                 </div>
-
             </div>
 
             <!-- RIGHT SIDE -->
             <div class="hero-right">
+                <div class="hero-glow"></div>
                 <div class="image-frame">
                     <img src="ubaid.jpeg" alt="Ubaid">
                 </div>
             </div>
-
         </div>
-
     </section>
 
-    <!-- ================= ABOUT (STARTUP UPGRADE) ================= -->
+    <!-- ================= ABOUT ================= -->
     <section id="about" class="about-section">
-
         <div class="container">
-
             <h2 class="section-title">About Me</h2>
 
             <div class="about-grid">
-
                 <!-- LEFT TEXT -->
                 <div class="about-text">
-
                     <h3 class="about-heading">
-                        Building modern digital experiences with clean code & scalable systems.
+                        Building digital experiences with clean code & scalable systems.
                     </h3>
 
                     <p>
@@ -123,55 +119,50 @@
 
                     <p>
                         My current stack includes JavaScript, React, Next.js, Node.js, Express, MongoDB,
-                        and FastAPI. I am also actively exploring blockchain development, system design,
-                        and AI-based applications.
+                        and FastAPI. I'm actively exploring blockchain development, system design, and AI applications.
                     </p>
 
                     <div class="about-tags">
-                        <span>Full Stack Developer</span>
-                        <span>MERN Stack</span>
-                        <span>Blockchain Learner</span>
-                        <span>UI/UX Builder</span>
+                        <span class="tag">Full Stack Developer</span>
+                        <span class="tag">MERN Stack</span>
+                        <span class="tag">Blockchain Learner</span>
+                        <span class="tag">UI/UX Builder</span>
                     </div>
-
                 </div>
 
                 <!-- RIGHT STATS CARD -->
                 <div class="about-cards">
-
                     <div class="about-card">
+                        <div class="card-icon">📁</div>
                         <h3>10+</h3>
                         <p>Projects Built</p>
                     </div>
 
                     <div class="about-card">
+                        <div class="card-icon">📚</div>
                         <h3>1+</h3>
                         <p>Years Learning</p>
                     </div>
 
                     <div class="about-card">
+                        <div class="card-icon">⚙️</div>
                         <h3>8+</h3>
                         <p>Technologies</p>
                     </div>
 
                     <div class="about-card">
+                        <div class="card-icon">❤️</div>
                         <h3>100%</h3>
                         <p>Passion Driven</p>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
-    <!-- ================= SKILLS (STARTUP DASHBOARD STYLE) ================= -->
+    <!-- ================= SKILLS ================= -->
     <section id="skills" class="skills-section">
-
         <div class="container">
-
             <h2 class="section-title">Technical Skills</h2>
 
             <p class="skills-subtitle">
@@ -179,10 +170,12 @@
             </p>
 
             <div class="skills-grid">
-
                 <!-- FRONTEND -->
                 <div class="skill-card">
-                    <h3>Frontend</h3>
+                    <div class="skill-header">
+                        <h3>🎨 Frontend</h3>
+                        <div class="skill-bar" style="width: 90%"></div>
+                    </div>
                     <div class="skill-tags">
                         <span>HTML5</span>
                         <span>CSS3</span>
@@ -195,7 +188,10 @@
 
                 <!-- BACKEND -->
                 <div class="skill-card">
-                    <h3>Backend</h3>
+                    <div class="skill-header">
+                        <h3>⚙️ Backend</h3>
+                        <div class="skill-bar" style="width: 85%"></div>
+                    </div>
                     <div class="skill-tags">
                         <span>Node.js</span>
                         <span>Express</span>
@@ -207,7 +203,10 @@
 
                 <!-- DATABASE -->
                 <div class="skill-card">
-                    <h3>Databases</h3>
+                    <div class="skill-header">
+                        <h3>🗄️ Databases</h3>
+                        <div class="skill-bar" style="width: 80%"></div>
+                    </div>
                     <div class="skill-tags">
                         <span>MongoDB</span>
                         <span>MySQL</span>
@@ -216,7 +215,10 @@
 
                 <!-- LANGUAGES -->
                 <div class="skill-card">
-                    <h3>Languages</h3>
+                    <div class="skill-header">
+                        <h3>💻 Languages</h3>
+                        <div class="skill-bar" style="width: 88%"></div>
+                    </div>
                     <div class="skill-tags">
                         <span>JavaScript</span>
                         <span>Python</span>
@@ -229,7 +231,10 @@
 
                 <!-- MOBILE -->
                 <div class="skill-card">
-                    <h3>Mobile</h3>
+                    <div class="skill-header">
+                        <h3>📱 Mobile</h3>
+                        <div class="skill-bar" style="width: 75%"></div>
+                    </div>
                     <div class="skill-tags">
                         <span>Flutter</span>
                         <span>Dart</span>
@@ -238,7 +243,10 @@
 
                 <!-- TOOLS -->
                 <div class="skill-card">
-                    <h3>Tools</h3>
+                    <div class="skill-header">
+                        <h3>🛠️ Tools</h3>
+                        <div class="skill-bar" style="width: 92%"></div>
+                    </div>
                     <div class="skill-tags">
                         <span>Git</span>
                         <span>GitHub</span>
@@ -249,7 +257,10 @@
 
                 <!-- BLOCKCHAIN -->
                 <div class="skill-card highlight">
-                    <h3>Blockchain</h3>
+                    <div class="skill-header">
+                        <h3>⛓️ Blockchain</h3>
+                        <div class="skill-bar" style="width: 70%"></div>
+                    </div>
                     <div class="skill-tags">
                         <span>Web3 Basics</span>
                         <span>Smart Contracts</span>
@@ -259,7 +270,10 @@
 
                 <!-- CURRENTLY LEARNING -->
                 <div class="skill-card future">
-                    <h3>Currently Learning</h3>
+                    <div class="skill-header">
+                        <h3>🚀 Currently Learning</h3>
+                        <div class="skill-bar" style="width: 65%"></div>
+                    </div>
                     <div class="skill-tags">
                         <span>AI</span>
                         <span>Cybersecurity</span>
@@ -267,125 +281,166 @@
                         <span>Advanced React</span>
                     </div>
                 </div>
-
             </div>
         </div>
-
     </section>
 
-
-    <!-- ================= GALLERY (STARTUP SHOWCASE STYLE) ================= -->
+    <!-- ================= GALLERY ================= -->
     <section id="gallery" class="gallery-section">
-
         <div class="container">
-
             <h2 class="section-title">My Work & Moments</h2>
 
             <p class="gallery-subtitle">
                 A visual showcase of my development journey, projects, and learning environment
             </p>
-
         </div>
 
         <!-- AUTO SCROLL TRACK -->
         <div class="gallery-wrapper">
-
             <div class="gallery-track">
-
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
-                    <div class="overlay">Workspace Setup</div>
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Workspace Setup">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <p>Workspace Setup</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97">
-                    <div class="overlay">Coding Session</div>
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" alt="Coding Session">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <p>Coding Session</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b">
-                    <div class="overlay">Tech Exploration</div>
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" alt="Tech Exploration">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <p>Tech Exploration</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1">
-                    <div class="overlay">Innovation Mindset</div>
+                    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" alt="Innovation Mindset">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <p>Innovation Mindset</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
-                    <div class="overlay">Team Collaboration</div>
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Team Collaboration">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <p>Team Collaboration</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0">
-                    <div class="overlay">Blockchain Exploration</div>
+                    <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0" alt="Blockchain Exploration">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <p>Blockchain Exploration</p>
+                        </div>
+                    </div>
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
-    <!-- ================= CONTACT (STARTUP SaaS STYLE) ================= -->
+    <!-- ================= CONTACT ================= -->
     <section id="contact" class="contact-section">
-
         <div class="container">
-
-            <h2 class="section-title">Let’s Work Together</h2>
+            <h2 class="section-title">Let's Work Together</h2>
 
             <p class="contact-subtitle">
-                Have a project idea or opportunity? Send a message and I’ll respond quickly.
+                Have a project idea or opportunity? Send a message and I'll respond quickly.
             </p>
 
             <div class="contact-grid">
-
                 <!-- FORM CARD -->
                 <div class="contact-card form-card">
-
                     <h3>Send a Message</h3>
 
                     <form>
-                        <input type="text" placeholder="Your Name" required>
-                        <input type="email" placeholder="Your Email" required>
-                        <textarea rows="5" placeholder="Tell me about your project..." required></textarea>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
 
-                        <button type="submit">Send Message</button>
+                        <button type="submit" class="form-submit">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
                     </form>
-
                 </div>
 
                 <!-- INFO / SOCIAL CARD -->
                 <div class="contact-card info-card">
-
                     <h3>Connect With Me</h3>
 
                     <p>
-                        I’m available for freelance work, internships, and collaborations.
+                        I'm available for freelance work, internships, and collaborations. Let's create something amazing together!
                     </p>
 
                     <div class="contact-info">
-                        <div>📍 Abbottabad, Pakistan</div>
-                        <div>📧 ubaidhabiib@gmail.com</div>
-                        <div>⚡ Response: within 8am-2am</div>
+                        <div class="info-item">
+                            <span class="info-icon">📍</span>
+                            <div>
+                                <strong>Location</strong>
+                                <p>Abbottabad, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📧</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>ubaidhabiib@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">⚡</span>
+                            <div>
+                                <strong>Response Time</strong>
+                                <p>Within 8am-2am</p>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="social-links">
-                        <a href="https://github.com/ubaidhabib0"><i class="fab fa-github"></i></a>
-                        <a href="https://instagram.com/ubaidhabiib0"><i class="fab fa-instagram"></i></a>
-                        <a href="https://x.com/ubaidhabiib0"><i class="fab fa-x-twitter"></i></a>
-                        <a href="https://facebook.com/ubaidhabiib0"><i class="fab fa-facebook"></i></a>
-                        <a href="https://fiverr.com/ubaidhabib9"><i class="fab fa-fiverr"></i></a>
+                        <a href="https://github.com/ubaidhabib0" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://instagram.com/ubaidhabiib0" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://x.com/ubaidhabiib0" class="social-link" title="Twitter">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://facebook.com/ubaidhabiib0" class="social-link" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://fiverr.com/ubaidhabib9" class="social-link" title="Fiverr">
+                            <i class="fab fa-fiverr"></i>
+                        </a>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </section>
+
     <script src="script.js"></script>
 </body>
 
