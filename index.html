@@ -4,13 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ubaid | Portfolio</title>
+    <title>Ubaid | Premium Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
+
+    <!-- ================= ANIMATED BACKGROUND ================= -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+        <div class="gradient-blur"></div>
+    </div>
 
     <!-- ================= NAVBAR ================= -->
     <nav class="navbar">
@@ -20,23 +28,25 @@
                 <span>Ubaid</span>
             </a>
 
-            <button class="mobile-menu-btn" id="menuBtn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <div class="nav-right">
+                <button id="theme-toggle" class="theme-toggle glass-btn" title="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
 
-            <ul class="nav-links">
+                <button class="mobile-menu-btn glass-btn" id="menuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <ul class="nav-links glass-nav">
                 <li><a href="#home" class="nav-link active">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#gallery" class="nav-link">Work</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-
-            <button id="theme-toggle" class="theme-toggle" title="Toggle Dark Mode">
-                <span class="icon">🌙</span>
-            </button>
         </div>
     </nav>
 
@@ -45,54 +55,55 @@
         <div class="hero-container">
             <!-- LEFT SIDE -->
             <div class="hero-left">
-                <div class="hero-badge">
+                <div class="hero-badge glass">
                     <span class="badge-dot"></span>
                     Available for Freelance Work
                 </div>
 
                 <h1 class="hero-title">
-                    Hi, I'm <span class="accent">Ubaid Ullah</span>
+                    Crafting <span class="accent">Digital Excellence</span>
                 </h1>
 
                 <p class="hero-subtitle">
-                    Full Stack Developer • MERN Stack • Blockchain Explorer • UI Builder
+                    Full Stack Developer • MERN Stack • Blockchain Explorer • UI Architect
                 </p>
 
                 <p class="hero-description">
-                    I craft elegant, scalable web applications with modern technologies. Specialized in
-                    JavaScript, React, Node.js, and exploring blockchain frontiers.
+                    I design and build premium web experiences with cutting-edge technologies.
+                    Specializing in scalable architectures, beautiful interfaces, and blockchain innovation.
                 </p>
 
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">
-                        <span>Hire Me</span>
-                        <i class="fas fa-arrow-right"></i>
+                    <a href="#contact" class="btn btn-primary glass-btn">
+                        <span>Start Project</span>
+                        <i class="fas fa-rocket"></i>
                     </a>
-                    <a href="#skills" class="btn btn-secondary">
-                        <span>View Skills</span>
+                    <a href="#skills" class="btn btn-secondary glass-btn">
+                        <span>Explore Skills</span>
+                        <i class="fas fa-code"></i>
                     </a>
                 </div>
 
                 <div class="hero-stats">
-                    <div class="stat-item">
+                    <div class="stat-item glass">
                         <h3>10+</h3>
                         <p>Projects</p>
                     </div>
-                    <div class="stat-item">
+                    <div class="stat-item glass">
                         <h3>Full</h3>
-                        <p>Stack Dev</p>
+                        <p>Stack</p>
                     </div>
-                    <div class="stat-item">
+                    <div class="stat-item glass">
                         <h3>1+</h3>
-                        <p>Yrs Learning</p>
+                        <p>Yrs</p>
                     </div>
                 </div>
             </div>
 
             <!-- RIGHT SIDE -->
             <div class="hero-right">
-                <div class="hero-glow"></div>
-                <div class="image-frame">
+                <div class="image-frame glass">
+                    <div class="frame-border"></div>
                     <img src="ubaid.jpeg" alt="Ubaid">
                 </div>
             </div>
@@ -103,57 +114,55 @@
     <section id="about" class="about-section">
         <div class="container">
             <h2 class="section-title">About Me</h2>
+            <div class="title-line"></div>
 
             <div class="about-grid">
                 <!-- LEFT TEXT -->
-                <div class="about-text">
+                <div class="about-text glass">
                     <h3 class="about-heading">
-                        Building digital experiences with clean code & scalable systems.
+                        Transforming Ideas Into Premium Digital Solutions
                     </h3>
 
                     <p>
-                        I am a Software Engineering student at AUST focused on full-stack development,
-                        modern web architectures, and blockchain systems. I enjoy turning ideas into
-                        real-world products using clean and efficient code.
+                        I'm a Software Engineering student at AUST with a passion for creating world-class web applications. My approach combines modern design principles with robust architecture to deliver exceptional user experiences.
                     </p>
 
                     <p>
-                        My current stack includes JavaScript, React, Next.js, Node.js, Express, MongoDB,
-                        and FastAPI. I'm actively exploring blockchain development, system design, and AI applications.
+                        Proficient in JavaScript, React, Next.js, Node.js, Express, and MongoDB. Actively exploring blockchain development, AI integration, and advanced system design patterns.
                     </p>
 
                     <div class="about-tags">
-                        <span class="tag">Full Stack Developer</span>
-                        <span class="tag">MERN Stack</span>
-                        <span class="tag">Blockchain Learner</span>
-                        <span class="tag">UI/UX Builder</span>
+                        <span class="tag glass">Full Stack Developer</span>
+                        <span class="tag glass">MERN Stack</span>
+                        <span class="tag glass">Blockchain</span>
+                        <span class="tag glass">UI/UX Design</span>
                     </div>
                 </div>
 
                 <!-- RIGHT STATS CARD -->
                 <div class="about-cards">
-                    <div class="about-card">
+                    <div class="about-card glass">
                         <div class="card-icon">📁</div>
                         <h3>10+</h3>
                         <p>Projects Built</p>
                     </div>
 
-                    <div class="about-card">
+                    <div class="about-card glass">
                         <div class="card-icon">📚</div>
                         <h3>1+</h3>
-                        <p>Years Learning</p>
+                        <p>Years Exp</p>
                     </div>
 
-                    <div class="about-card">
+                    <div class="about-card glass">
                         <div class="card-icon">⚙️</div>
                         <h3>8+</h3>
-                        <p>Technologies</p>
+                        <p>Tech Stack</p>
                     </div>
 
-                    <div class="about-card">
+                    <div class="about-card glass">
                         <div class="card-icon">❤️</div>
                         <h3>100%</h3>
-                        <p>Passion Driven</p>
+                        <p>Dedicated</p>
                     </div>
                 </div>
             </div>
@@ -163,122 +172,142 @@
     <!-- ================= SKILLS ================= -->
     <section id="skills" class="skills-section">
         <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="title-line"></div>
 
             <p class="skills-subtitle">
-                Technologies I use to build scalable full-stack applications
+                Premium technologies crafted into scalable solutions
             </p>
 
             <div class="skills-grid">
                 <!-- FRONTEND -->
-                <div class="skill-card">
+                <div class="skill-card glass">
                     <div class="skill-header">
                         <h3>🎨 Frontend</h3>
-                        <div class="skill-bar" style="width: 90%"></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
                     </div>
                     <div class="skill-tags">
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JavaScript</span>
-                        <span>React</span>
-                        <span>Next.js</span>
-                        <span>Bootstrap</span>
+                        <span class="glass">HTML5</span>
+                        <span class="glass">CSS3</span>
+                        <span class="glass">JavaScript</span>
+                        <span class="glass">React</span>
+                        <span class="glass">Next.js</span>
+                        <span class="glass">Tailwind</span>
                     </div>
                 </div>
 
                 <!-- BACKEND -->
-                <div class="skill-card">
+                <div class="skill-card glass">
                     <div class="skill-header">
                         <h3>⚙️ Backend</h3>
-                        <div class="skill-bar" style="width: 85%"></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
                     </div>
                     <div class="skill-tags">
-                        <span>Node.js</span>
-                        <span>Express</span>
-                        <span>FastAPI</span>
-                        <span>REST APIs</span>
-                        <span>Authentication</span>
+                        <span class="glass">Node.js</span>
+                        <span class="glass">Express</span>
+                        <span class="glass">FastAPI</span>
+                        <span class="glass">REST APIs</span>
+                        <span class="glass">GraphQL</span>
                     </div>
                 </div>
 
                 <!-- DATABASE -->
-                <div class="skill-card">
+                <div class="skill-card glass">
                     <div class="skill-header">
                         <h3>🗄️ Databases</h3>
-                        <div class="skill-bar" style="width: 80%"></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
                     </div>
                     <div class="skill-tags">
-                        <span>MongoDB</span>
-                        <span>MySQL</span>
+                        <span class="glass">MongoDB</span>
+                        <span class="glass">MySQL</span>
+                        <span class="glass">PostgreSQL</span>
+                        <span class="glass">Firebase</span>
                     </div>
                 </div>
 
                 <!-- LANGUAGES -->
-                <div class="skill-card">
+                <div class="skill-card glass">
                     <div class="skill-header">
                         <h3>💻 Languages</h3>
-                        <div class="skill-bar" style="width: 88%"></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
                     </div>
                     <div class="skill-tags">
-                        <span>JavaScript</span>
-                        <span>Python</span>
-                        <span>Java</span>
-                        <span>C++</span>
-                        <span>PHP</span>
-                        <span>TypeScript</span>
+                        <span class="glass">JavaScript</span>
+                        <span class="glass">Python</span>
+                        <span class="glass">TypeScript</span>
+                        <span class="glass">Java</span>
+                        <span class="glass">C++</span>
                     </div>
                 </div>
 
                 <!-- MOBILE -->
-                <div class="skill-card">
+                <div class="skill-card glass">
                     <div class="skill-header">
                         <h3>📱 Mobile</h3>
-                        <div class="skill-bar" style="width: 75%"></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
                     </div>
                     <div class="skill-tags">
-                        <span>Flutter</span>
-                        <span>Dart</span>
+                        <span class="glass">Flutter</span>
+                        <span class="glass">React Native</span>
+                        <span class="glass">Dart</span>
                     </div>
                 </div>
 
-                <!-- TOOLS -->
-                <div class="skill-card">
+                <!-- TOOLS & DevOps -->
+                <div class="skill-card glass">
                     <div class="skill-header">
-                        <h3>🛠️ Tools</h3>
-                        <div class="skill-bar" style="width: 92%"></div>
+                        <h3>🛠️ DevOps & Tools</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
                     </div>
                     <div class="skill-tags">
-                        <span>Git</span>
-                        <span>GitHub</span>
-                        <span>VS Code</span>
-                        <span>Postman</span>
+                        <span class="glass">Git</span>
+                        <span class="glass">Docker</span>
+                        <span class="glass">AWS</span>
+                        <span class="glass">CI/CD</span>
                     </div>
                 </div>
 
                 <!-- BLOCKCHAIN -->
-                <div class="skill-card highlight">
+                <div class="skill-card glass premium">
                     <div class="skill-header">
                         <h3>⛓️ Blockchain</h3>
-                        <div class="skill-bar" style="width: 70%"></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
                     </div>
                     <div class="skill-tags">
-                        <span>Web3 Basics</span>
-                        <span>Smart Contracts</span>
-                        <span>Decentralized Apps</span>
+                        <span class="glass">Web3.js</span>
+                        <span class="glass">Smart Contracts</span>
+                        <span class="glass">Solidity</span>
+                        <span class="glass">DApps</span>
                     </div>
                 </div>
 
-                <!-- CURRENTLY LEARNING -->
-                <div class="skill-card future">
+                <!-- AI & ML -->
+                <div class="skill-card glass premium">
                     <div class="skill-header">
-                        <h3>🚀 Currently Learning</h3>
-                        <div class="skill-bar" style="width: 65%"></div>
+                        <h3>🚀 AI & ML</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
                     </div>
                     <div class="skill-tags">
-                        <span>AI</span>
-                        <span>Cybersecurity</span>
-                        <span>System Design</span>
-                        <span>Advanced React</span>
+                        <span class="glass">TensorFlow</span>
+                        <span class="glass">PyTorch</span>
+                        <span class="glass">Python ML</span>
+                        <span class="glass">Learning</span>
                     </div>
                 </div>
             </div>
@@ -288,66 +317,73 @@
     <!-- ================= GALLERY ================= -->
     <section id="gallery" class="gallery-section">
         <div class="container">
-            <h2 class="section-title">My Work & Moments</h2>
+            <h2 class="section-title">Creative Showcase</h2>
+            <div class="title-line"></div>
 
             <p class="gallery-subtitle">
-                A visual showcase of my development journey, projects, and learning environment
+                Visual journey through my development process and projects
             </p>
         </div>
 
         <!-- AUTO SCROLL TRACK -->
         <div class="gallery-wrapper">
             <div class="gallery-track">
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Workspace Setup">
+                <div class="gallery-item glass">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Workspace">
                     <div class="overlay">
                         <div class="overlay-content">
-                            <p>Workspace Setup</p>
+                            <p>Workspace</p>
+                            <span>Development</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" alt="Coding Session">
+                <div class="gallery-item glass">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" alt="Coding">
                     <div class="overlay">
                         <div class="overlay-content">
-                            <p>Coding Session</p>
+                            <p>Coding</p>
+                            <span>Solutions</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" alt="Tech Exploration">
+                <div class="gallery-item glass">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" alt="Tech">
                     <div class="overlay">
                         <div class="overlay-content">
-                            <p>Tech Exploration</p>
+                            <p>Innovation</p>
+                            <span>Technology</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" alt="Innovation Mindset">
+                <div class="gallery-item glass">
+                    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" alt="Design">
                     <div class="overlay">
                         <div class="overlay-content">
-                            <p>Innovation Mindset</p>
+                            <p>Design</p>
+                            <span>Excellence</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Team Collaboration">
+                <div class="gallery-item glass">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Team">
                     <div class="overlay">
                         <div class="overlay-content">
-                            <p>Team Collaboration</p>
+                            <p>Collaboration</p>
+                            <span>Teamwork</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0" alt="Blockchain Exploration">
+                <div class="gallery-item glass">
+                    <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0" alt="Blockchain">
                     <div class="overlay">
                         <div class="overlay-content">
-                            <p>Blockchain Exploration</p>
+                            <p>Blockchain</p>
+                            <span>Future Tech</span>
                         </div>
                     </div>
                 </div>
@@ -358,29 +394,33 @@
     <!-- ================= CONTACT ================= -->
     <section id="contact" class="contact-section">
         <div class="container">
-            <h2 class="section-title">Let's Work Together</h2>
+            <h2 class="section-title">Let's Create Magic</h2>
+            <div class="title-line"></div>
 
             <p class="contact-subtitle">
-                Have a project idea or opportunity? Send a message and I'll respond quickly.
+                Ready to bring your vision to life? Let's collaborate on something extraordinary.
             </p>
 
             <div class="contact-grid">
                 <!-- FORM CARD -->
-                <div class="contact-card form-card">
+                <div class="contact-card glass">
                     <h3>Send a Message</h3>
 
                     <form>
                         <div class="form-group">
                             <input type="text" placeholder="Your Name" required>
+                            <span class="input-focus"></span>
                         </div>
                         <div class="form-group">
                             <input type="email" placeholder="Your Email" required>
+                            <span class="input-focus"></span>
                         </div>
                         <div class="form-group">
                             <textarea rows="5" placeholder="Tell me about your project..." required></textarea>
+                            <span class="input-focus"></span>
                         </div>
 
-                        <button type="submit" class="form-submit">
+                        <button type="submit" class="form-submit glass-btn">
                             <span>Send Message</span>
                             <i class="fas fa-paper-plane"></i>
                         </button>
@@ -388,51 +428,51 @@
                 </div>
 
                 <!-- INFO / SOCIAL CARD -->
-                <div class="contact-card info-card">
+                <div class="contact-card glass">
                     <h3>Connect With Me</h3>
 
                     <p>
-                        I'm available for freelance work, internships, and collaborations. Let's create something amazing together!
+                        I'm available for premium projects, collaborations, and innovative ventures. Let's create something extraordinary together!
                     </p>
 
                     <div class="contact-info">
-                        <div class="info-item">
+                        <div class="info-item glass">
                             <span class="info-icon">📍</span>
                             <div>
                                 <strong>Location</strong>
                                 <p>Abbottabad, Pakistan</p>
                             </div>
                         </div>
-                        <div class="info-item">
+                        <div class="info-item glass">
                             <span class="info-icon">📧</span>
                             <div>
                                 <strong>Email</strong>
                                 <p>ubaidhabiib@gmail.com</p>
                             </div>
                         </div>
-                        <div class="info-item">
+                        <div class="info-item glass">
                             <span class="info-icon">⚡</span>
                             <div>
-                                <strong>Response Time</strong>
-                                <p>Within 8am-2am</p>
+                                <strong>Response</strong>
+                                <p>8am - 2am PKT</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="social-links">
-                        <a href="https://github.com/ubaidhabib0" class="social-link" title="GitHub">
+                        <a href="https://github.com/ubaidhabib0" class="social-link glass-btn" title="GitHub">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="https://instagram.com/ubaidhabiib0" class="social-link" title="Instagram">
+                        <a href="https://instagram.com/ubaidhabiib0" class="social-link glass-btn" title="Instagram">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="https://x.com/ubaidhabiib0" class="social-link" title="Twitter">
+                        <a href="https://x.com/ubaidhabiib0" class="social-link glass-btn" title="Twitter">
                             <i class="fab fa-x-twitter"></i>
                         </a>
-                        <a href="https://facebook.com/ubaidhabiib0" class="social-link" title="Facebook">
+                        <a href="https://facebook.com/ubaidhabiib0" class="social-link glass-btn" title="Facebook">
                             <i class="fab fa-facebook"></i>
                         </a>
-                        <a href="https://fiverr.com/ubaidhabib9" class="social-link" title="Fiverr">
+                        <a href="https://fiverr.com/ubaidhabib9" class="social-link glass-btn" title="Fiverr">
                             <i class="fab fa-fiverr"></i>
                         </a>
                     </div>
@@ -440,6 +480,16 @@
             </div>
         </div>
     </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content glass">
+                <p>&copy; 2024 Ubaid Ullah. Crafted with <span class="heart">❤️</span> and premium code.</p>
+                <p>Full Stack Developer • MERN Stack • Blockchain Explorer</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
